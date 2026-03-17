@@ -14,7 +14,6 @@ jobs:
         with:
           fetch-depth: 0
 
-      # Bun in der GitHub Action installieren
       - uses: oven-sh/setup-bun@v1
         with:
           bun-version: latest
