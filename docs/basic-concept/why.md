@@ -1,1 +1,0 @@
-# Why is WebRTC superior?
