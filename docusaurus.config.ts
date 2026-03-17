@@ -1,25 +1,25 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
   title: 'LobbyLink',
-  tagline: 'Godot Multiplayer made simple',
+  tagline: 'Godot Multiplayer made simple.',
   favicon: 'img/favicon.ico',
 
   future: {
-    v4: true, 
+    v4: true,
   },
 
   url: 'https://lobbylink.github.io',
-  
+
   baseUrl: '/documentation/',
   trailingSlash: false,
 
-  organizationName: 'lobbylink', 
-  projectName: 'documentation', 
+  organizationName: 'lobbylink',
+  projectName: 'documentation',
 
   onBrokenLinks: 'throw',
 
@@ -64,7 +64,7 @@ const config: Config = {
         id: 'lobbylink',
         path: 'lobbylink',
         routeBasePath: 'lobbylink',
-        sidebarPath: './sidebars.ts', 
+        sidebarPath: './sidebars.ts',
       },
     ],
   ],
@@ -78,7 +78,7 @@ const config: Config = {
       title: 'LobbyLink',
       logo: {
         alt: 'LobbyLink Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [
         {
@@ -96,8 +96,8 @@ const config: Config = {
           docsPluginId: "lobbylink",
         },
         {
-          to: '/blog', 
-          label: 'Blog', 
+          to: '/blog',
+          label: 'Blog',
           position: 'left',
         },
         {
@@ -144,7 +144,7 @@ const config: Config = {
       darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
-  
+
   markdown: {
     mermaid: true,
   },

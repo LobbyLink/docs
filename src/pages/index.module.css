@@ -14,10 +14,16 @@
   .heroBanner {
     padding: 2rem;
   }
+
+  .buttons {
+    flex-direction: column; /* Auf Handys werden sie untereinander gestapelt */
+    gap: 1rem;
+  }
 }
 
 .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 1.5rem;
 }

@@ -20,8 +20,24 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            to="/webrtc/intro"
+            style={{ lineHeight: '1.2', padding: '15px 25px' }} // Zeilenabstand & Padding optimiert
+          >
+            Godot x WebRTC
+            <span style={{ display: 'block', fontSize: '0.65em', fontWeight: 'normal', marginTop: '4px' }}>
+              Learn about WebRTC!
+            </span>
+          </Link>
+
+          <Link
+            className="button button--secondary button--lg"
+            to="/lobbylink/intro"
+            style={{ lineHeight: '1.2', padding: '15px 25px' }}
+          >
+            LobbyLink Addon
+            <span style={{ display: 'block', fontSize: '0.65em', fontWeight: 'normal', marginTop: '4px' }}>
+              I just want to use it!
+            </span>
           </Link>
         </div>
       </div>
