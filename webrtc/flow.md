@@ -1,8 +1,8 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 ---
 
-# WebRTC Flow
+# The WebRTC Flow
 
 ```mermaid
 sequenceDiagram
