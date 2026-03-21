@@ -4,7 +4,7 @@ sidebar_position: 99
 
 # FAQ
 
-[//]: # "This needs rework and some slight other wording."
+TODO: This needs maybe some rework. 
 
 <details>
     <summary>Do players need to configure port forwarding to connect to a peer?</summary>
