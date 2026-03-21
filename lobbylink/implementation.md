@@ -30,6 +30,29 @@ credential = "test123"
 ## Creating a Server/Lobby
 
 ```gdscript
+
+```
+
+
+## Connecting with a Client
+
+```gdscript
+
+```
+
+
+## Signals
+
+```gdscript
+
+```
+
+
+## Full example
+
+This is a full minimal examaple containing all signals, label visibilities and button connections. 
+
+```gdscript
 extends Node
 
 func _ready() -> void:
@@ -84,9 +107,3 @@ func _on_room_join_result(successful: bool):
 	print("Please try again.")
 	pass
 ```
-
-
-## Connecting with a Client
-
-
-## Signals
